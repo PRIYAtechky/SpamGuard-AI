@@ -1,0 +1,32 @@
+# Python byte-code / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# SQLite databases & runtime test state
+*.db
+*.sqlite3
+test_spam_guard.db
+
+# Streamlit runtime cache
+.streamlit/
+
+# Legacy frontend artifacts
+frontend/
+.legacy_frontend/
+node_modules/
+dist/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
